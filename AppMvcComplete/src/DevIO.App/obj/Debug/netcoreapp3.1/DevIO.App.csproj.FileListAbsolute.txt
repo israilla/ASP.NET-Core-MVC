@@ -197,3 +197,6 @@ C:\Users\Israilla\source\repos\ASP.NET CORE\Module VI\AppMvcComplete\src\DevIO.A
 C:\Users\Israilla\source\repos\ASP.NET CORE\Module VI\AppMvcComplete\src\DevIO.App\obj\Debug\netcoreapp3.1\Razor\Views\Fornecedores\_Endereco.cshtml.g.cs
 C:\Users\Israilla\source\repos\ASP.NET CORE\Module VI\AppMvcComplete\src\DevIO.App\bin\Debug\netcoreapp3.1\libman.json
 C:\Users\Israilla\source\repos\ASP.NET CORE\Module VI\AppMvcComplete\src\DevIO.App\bin\Debug\netcoreapp3.1\FluentValidation.dll
+C:\Users\Israilla\source\repos\ASP.NET CORE\Module VI\AppMvcComplete\src\DevIO.App\obj\Debug\netcoreapp3.1\DevIO.App.csproj.CoreCompileInputs.cache
+C:\Users\Israilla\source\repos\ASP.NET CORE\Module VI\AppMvcComplete\src\DevIO.App\obj\Debug\netcoreapp3.1\DevIO.App.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Israilla\source\repos\ASP.NET CORE\Module VI\AppMvcComplete\src\DevIO.App\obj\Debug\netcoreapp3.1\DevIO.App.MvcApplicationPartsAssemblyInfo.cache

@@ -6,3 +6,4 @@ C:\Users\Israilla\source\repos\ASP.NET CORE\Module VI\AppMvcComplete\src\DevIO.B
 C:\Users\Israilla\source\repos\ASP.NET CORE\Module VI\AppMvcComplete\src\DevIO.Business\obj\Debug\netcoreapp3.1\DevIO.Business.AssemblyInfo.cs
 C:\Users\Israilla\source\repos\ASP.NET CORE\Module VI\AppMvcComplete\src\DevIO.Business\obj\Debug\netcoreapp3.1\DevIO.Business.dll
 C:\Users\Israilla\source\repos\ASP.NET CORE\Module VI\AppMvcComplete\src\DevIO.Business\obj\Debug\netcoreapp3.1\DevIO.Business.pdb
+C:\Users\Israilla\source\repos\ASP.NET CORE\Module VI\AppMvcComplete\src\DevIO.Business\obj\Debug\netcoreapp3.1\DevIO.Business.csproj.CoreCompileInputs.cache

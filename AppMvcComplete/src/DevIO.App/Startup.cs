@@ -10,6 +10,8 @@ using Microsoft.Extensions.Hosting;
 using DevIO.Business.Interfaces;
 using DevIO.Data.Repository;
 using AutoMapper;
+using DevIO.Business.Notifications;
+using DevIO.Business.Services;
 
 namespace DevIO.App
 {
@@ -46,6 +48,9 @@ namespace DevIO.App
             services.AddScoped<IProdutoRepository, ProdutoRepository>();
             services.AddScoped<IFornecedorRepository, FornecedorRepository>();
             services.AddScoped<IEnderecoRepository, EnderecoRepository>();
+            services.AddScoped<INotificador, Notificador>();
+            services.AddScoped<IFornecedorRepository, FornecedorRepository>();
+            services.AddScoped<IProdutoService, ProdutoService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

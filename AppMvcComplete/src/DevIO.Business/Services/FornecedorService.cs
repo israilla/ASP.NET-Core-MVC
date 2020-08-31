@@ -12,7 +12,7 @@ namespace DevIO.Business.Services
     {
         private readonly IFornecedorRepository _fornecedorRepository;
         private readonly IEnderecoRepository _enderecoRespository;
-        public FornecedorService(IFornecedorRepository fornecedorRepository, IEnderecoRepository enderecoRespository)
+        public FornecedorService(IFornecedorRepository fornecedorRepository, IEnderecoRepository enderecoRespository, INotificador notificador) : base(notificador)
         {
             _fornecedorRepository = fornecedorRepository;
             _enderecoRespository = enderecoRespository;
