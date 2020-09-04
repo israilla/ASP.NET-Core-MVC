@@ -9,6 +9,7 @@ using DevIO.Business.Models;
 using Microsoft.AspNetCore.Http;
 using System.Net.NetworkInformation;
 using System.IO;
+using Microsoft.EntityFrameworkCore;
 
 namespace DevIO.App.Controllers
 {
@@ -24,14 +25,11 @@ namespace DevIO.App.Controllers
             _fornecedorRepository = fornecedorRepository;
             _mapper = mapper;
         }
-
-        // GET: Produtos
         public async Task<IActionResult> Index()
         {
             return View(_mapper.Map<IEnumerable<ProdutoViewModel>>(await _produtoRepository.ObterProdutosFornecedores()));
         }
 
-        // GET: Produtos/Details/5
         public async Task<IActionResult> Details(Guid id)
         {
             var produtoViewModel = await ObterProduto(id);
@@ -43,7 +41,6 @@ namespace DevIO.App.Controllers
             return View(produtoViewModel);
         }
 
-        // GET: Produtos/Create
         public async Task<IActionResult> Create()
         {
             var produtoViewModel = await PopularFornecedores(new ProdutoViewModel());
@@ -70,7 +67,6 @@ namespace DevIO.App.Controllers
             return RedirectToAction("Index");
         }
 
-        // GET: Produtos/Edit/5
         public async Task<IActionResult> Edit(Guid id)
         {
 
@@ -115,7 +111,6 @@ namespace DevIO.App.Controllers
 
         }
 
-        // GET: Produtos/Delete/5
         public async Task<IActionResult> Delete(Guid id)
         {
             var produto = await ObterProduto(id);
@@ -126,7 +121,6 @@ namespace DevIO.App.Controllers
             return View(produto);
         }
 
-        // POST: Produtos/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(Guid id)

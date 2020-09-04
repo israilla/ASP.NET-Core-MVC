@@ -19,14 +19,10 @@ namespace DevIO.App.Controllers
             _fornecedorRepository = fornecedorRepository;
             _mapper = mapper;
         }
-
-        // GET: Fornecedores
         public async Task<IActionResult> Index()
         {
             return View(_mapper.Map<IEnumerable<FornecedorViewModel>>(await _fornecedorRepository.ObterTodos()));
         }
-
-        // GET: Fornecedores/Details/5
         public async Task<IActionResult> Details(Guid id)
         {
             var fornecedorViewModel = await ObterFornecedorEndereco(id);
@@ -38,7 +34,6 @@ namespace DevIO.App.Controllers
             return View(fornecedorViewModel);
         }
 
-        // GET: Fornecedores/Create
         public IActionResult Create()
         {
             return View();
@@ -55,7 +50,6 @@ namespace DevIO.App.Controllers
             return RedirectToAction("Index");
         }
 
-        // GET: Fornecedores/Edit/5
         public async Task<IActionResult> Edit(Guid id)
         {
             var fornecedorViewModel = await ObterFornecedorProdutosEndereco(id);
@@ -83,7 +77,6 @@ namespace DevIO.App.Controllers
 
         }
 
-        // GET: Fornecedores/Delete/5
         public async Task<IActionResult> Delete(Guid id)
         {
             var fornecedorViewModel = await ObterFornecedorEndereco (id);
@@ -95,7 +88,6 @@ namespace DevIO.App.Controllers
             return View(fornecedorViewModel);
         }
 
-        // POST: Fornecedores/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(Guid id)
