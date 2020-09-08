@@ -70,9 +70,6 @@ C:\Users\Israilla\source\repos\ASP.NET CORE\Module VI\AppMVC\src\DevIO.App\bin\D
 C:\Users\Israilla\source\repos\ASP.NET CORE\Module VI\AppMVC\src\DevIO.App\obj\Debug\netcoreapp3.1\DevIO.App.csprojAssemblyReference.cache
 C:\Users\Israilla\source\repos\ASP.NET CORE\Module VI\AppMVC\src\DevIO.App\obj\Debug\netcoreapp3.1\DevIO.App.AssemblyInfoInputs.cache
 C:\Users\Israilla\source\repos\ASP.NET CORE\Module VI\AppMVC\src\DevIO.App\obj\Debug\netcoreapp3.1\DevIO.App.AssemblyInfo.cs
-C:\Users\Israilla\source\repos\ASP.NET CORE\Module VI\AppMVC\src\DevIO.App\obj\Debug\netcoreapp3.1\DevIO.App.csproj.CoreCompileInputs.cache
-C:\Users\Israilla\source\repos\ASP.NET CORE\Module VI\AppMVC\src\DevIO.App\obj\Debug\netcoreapp3.1\DevIO.App.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Israilla\source\repos\ASP.NET CORE\Module VI\AppMVC\src\DevIO.App\obj\Debug\netcoreapp3.1\DevIO.App.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Israilla\source\repos\ASP.NET CORE\Module VI\AppMVC\src\DevIO.App\obj\Debug\netcoreapp3.1\DevIO.App.RazorAssemblyInfo.cache
 C:\Users\Israilla\source\repos\ASP.NET CORE\Module VI\AppMVC\src\DevIO.App\obj\Debug\netcoreapp3.1\DevIO.App.RazorAssemblyInfo.cs
 C:\Users\Israilla\source\repos\ASP.NET CORE\Module VI\AppMVC\src\DevIO.App\obj\Debug\netcoreapp3.1\DevIO.App.TagHelpers.input.cache
