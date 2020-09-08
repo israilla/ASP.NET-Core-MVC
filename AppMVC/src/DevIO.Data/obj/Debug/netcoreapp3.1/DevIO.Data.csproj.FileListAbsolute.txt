@@ -1,0 +1,5 @@
+C:\Users\Israilla\source\repos\ASP.NET CORE\Module VI\AppMVC\src\DevIO.Data\bin\Debug\netcoreapp3.1\DevIO.Data.deps.json
+C:\Users\Israilla\source\repos\ASP.NET CORE\Module VI\AppMVC\src\DevIO.Data\bin\Debug\netcoreapp3.1\DevIO.Data.dll
+C:\Users\Israilla\source\repos\ASP.NET CORE\Module VI\AppMVC\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.csprojAssemblyReference.cache
+C:\Users\Israilla\source\repos\ASP.NET CORE\Module VI\AppMVC\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.AssemblyInfoInputs.cache
+C:\Users\Israilla\source\repos\ASP.NET CORE\Module VI\AppMVC\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.AssemblyInfo.cs
