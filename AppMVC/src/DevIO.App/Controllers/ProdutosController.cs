@@ -90,16 +90,16 @@ namespace DevIO.App.Controllers
             produtoViewModel.Imagem = produtoAtualizacao.Imagem;
             if (!ModelState.IsValid) return View(produtoViewModel);
 
-            //if (produtoViewModel.ImagemUpload != null)
-            //{
-            //    var imgPrefixo = Guid.NewGuid() + "_";
-            //    if (!await UploadArquivo(produtoViewModel.ImagemUpload, imgPrefixo))
-            //    {
-            //        return View(produtoViewModel);
-            //    }
+            if (produtoViewModel.ImagemUpload != null)
+            {
+                var imgPrefixo = Guid.NewGuid() + "_";
+                if (!await UploadArquivo(produtoViewModel.ImagemUpload, imgPrefixo))
+                {
+                    return View(produtoViewModel);
+                }
 
-            //    produtoAtualizacao.Imagem = imgPrefixo + produtoViewModel.ImagemUpload.FileName;
-            //}
+                produtoAtualizacao.Imagem = imgPrefixo + produtoViewModel.ImagemUpload.FileName;
+            }
 
             produtoAtualizacao.Nome = produtoViewModel.Nome;
             produtoAtualizacao.Descricao = produtoViewModel.Descricao;
