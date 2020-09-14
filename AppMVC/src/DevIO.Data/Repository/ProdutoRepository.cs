@@ -21,7 +21,7 @@ namespace DevIO.Data.Repository
         public async Task<IEnumerable<Produto>> ObterProdutosFornecedores()
         {
             return await Db.Produtos.AsNoTracking().Include(f => f.Fornecedor)
-                .OrderBy(P => P.Nome).ToListAsync();
+                .OrderBy(p => p.Nome).ToListAsync();
         }
 
         public async Task<IEnumerable<Produto>> ObterProdutosPorFornecedor(Guid fornecedorId)

@@ -2,8 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\AppMVC",
-    "\\AppMVC\\AppMVC"
+    "\\AppMvcComplete\\src",
+    "\\AppMvcComplete\\src\\DevIO.App",
+    "\\AppMvcComplete\\src\\DevIO.App\\Views",
+    "\\AppMvcComplete\\src\\DevIO.App\\Views\\Shared"
   ],
-  "SelectedNode": "\\AppMVC\\AppMVC",
   "PreviewInSolutionExplorer": false
 }

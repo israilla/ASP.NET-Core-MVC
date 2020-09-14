@@ -14,5 +14,6 @@
     <View_SelectedScaffolderID>RazorViewScaffolder</View_SelectedScaffolderID>
     <View_SelectedScaffolderCategoryPath>root/View</View_SelectedScaffolderCategoryPath>
     <WebStackScaffolding_ViewDialogWidth>600</WebStackScaffolding_ViewDialogWidth>
+    <ShowAllFiles>true</ShowAllFiles>
   </PropertyGroup>
 </Project>
